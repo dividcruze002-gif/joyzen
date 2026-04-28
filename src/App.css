@@ -1836,6 +1836,12 @@ body {
   transition: all 0.3s ease;
   position: relative;
   padding-left: 15px;
+  background: none;
+  border: none;
+  box-shadow: none;
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
 }
 
 .nav-item::before {

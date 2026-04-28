@@ -222,18 +222,18 @@ function App() {
               </div>
               <p className="brand-tagline">Transforming healthcare through continuous care and innovation.</p>
               <div className="social-links">
-                <a href="#" className="social-link" aria-label="Instagram">
+                <button className="social-link" aria-label="Instagram">
                   <span className="social-icon">IG</span>
-                </a>
-                <a href="#" className="social-link" aria-label="Email">
+                </button>
+                <button className="social-link" aria-label="Email">
                   <span className="social-icon">✉️</span>
-                </a>
-                <a href="#" className="social-link" aria-label="LinkedIn">
+                </button>
+                <button className="social-link" aria-label="LinkedIn">
                   <span className="social-icon">💼</span>
-                </a>
-                <a href="#" className="social-link" aria-label="WhatsApp">
+                </button>
+                <button className="social-link" aria-label="WhatsApp">
                   <span className="social-icon">📱</span>
-                </a>
+                </button>
               </div>
             </div>
             
@@ -242,28 +242,28 @@ function App() {
               <div className="nav-column">
                 <h3 className="nav-title">Services</h3>
                 <ul className="nav-list">
-                  <li><a href="#" className="nav-item">Hormone Management</a></li>
-                  <li><a href="#" className="nav-item">Fertility Care</a></li>
-                  <li><a href="#" className="nav-item">Long-term Health</a></li>
-                  <li><a href="#" className="nav-item">Lifestyle Support</a></li>
+                  <li><button className="nav-item">Hormone Management</button></li>
+                  <li><button className="nav-item">Fertility Care</button></li>
+                  <li><button className="nav-item">Long-term Health</button></li>
+                  <li><button className="nav-item">Lifestyle Support</button></li>
                 </ul>
               </div>
               <div className="nav-column">
                 <h3 className="nav-title">Company</h3>
                 <ul className="nav-list">
-                  <li><a href="#" className="nav-item">About Us</a></li>
-                  <li><a href="#" className="nav-item">Our Mission</a></li>
-                  <li><a href="#" className="nav-item">Careers</a></li>
-                  <li><a href="#" className="nav-item">Press</a></li>
+                  <li><button className="nav-item">About Us</button></li>
+                  <li><button className="nav-item">Our Mission</button></li>
+                  <li><button className="nav-item">Careers</button></li>
+                  <li><button className="nav-item">Press</button></li>
                 </ul>
               </div>
               <div className="nav-column">
                 <h3 className="nav-title">Support</h3>
                 <ul className="nav-list">
-                  <li><a href="#" className="nav-item">Help Center</a></li>
-                  <li><a href="#" className="nav-item">Privacy Policy</a></li>
-                  <li><a href="#" className="nav-item">Terms of Service</a></li>
-                  <li><a href="#" className="nav-item">Contact Us</a></li>
+                  <li><button className="nav-item">Help Center</button></li>
+                  <li><button className="nav-item">Privacy Policy</button></li>
+                  <li><button className="nav-item">Terms of Service</button></li>
+                  <li><button className="nav-item">Contact Us</button></li>
                 </ul>
               </div>
             </div>
@@ -289,12 +289,7 @@ function App() {
             </div>
             <div className="bottom-right">
               <p className="developer-credit">Designed and Developed by TIC Global Services</p>
-              <div className="tech-stack">
-                <span className="tech-badge">React</span>
-                <span className="tech-badge">Modern</span>
-                <span className="tech-badge">Innovative</span>
-              </div>
-            </div>
+                          </div>
           </div>
           
           {/* Interactive Elements */}

@@ -913,7 +913,7 @@ body {
   height: 100vh;
   width: 100%;
   background-image: url("./assets/home.png");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
@@ -1386,9 +1386,8 @@ body {
 .card-image {
   width: 100%;
   height: 100%;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
   border-radius: 20px;
 }
 
@@ -1448,9 +1447,8 @@ body {
   width: 100%;
   height: 100%;
   background-image: url("./assets/about.png");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
   border-radius: 50%;
 }
 
